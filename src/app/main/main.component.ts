@@ -5,12 +5,14 @@ import {
   NgForm,
   Validators,
   FormGroup,
+  FormsModule,
 } from '@angular/forms';
 
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss'],
+  imports: [FormsModule]
 })
 export class MainComponent implements OnInit {
   constructor() {}
